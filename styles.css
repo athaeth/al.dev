@@ -1,0 +1,516 @@
+body {  
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    color:var(--chakra-colors-gray-800);
+    background:var(--chakra-colors-white);
+    line-height:1.5;
+    letter-spacing:-0.02rem;
+  }  
+* { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+} 
+
+* { 
+    border-width: 0; 
+    border-style: solid; 
+    box-sizing: border-box;
+} 
+
+* { 
+    border-color: var(--chakra-colors-gray-200); 
+    word-wrap: break-word;
+} 
+
+body { 
+    padding: 0; 
+    margin: 0; 
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+} 
+
+body { 
+    position: relative; 
+    min-height: 100%; 
+    font-feature-settings: 'kern';
+} 
+
+body { 
+    margin: 0;
+} 
+
+body { 
+    font-family: var(--chakra-fonts-body); 
+    color: var(--chakra-colors-gray-800); 
+    background: var(--chakra-colors-white); 
+    transition-property: background-color; 
+    transition-duration: var(--chakra-transition-duration-normal); 
+    line-height: var(--chakra-lineHeights-base);
+} 
+
+body { 
+    letter-spacing: -0.02rem;
+} 
+
+html { 
+    padding: 0; 
+    margin: 0; 
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+} 
+
+html { 
+    line-height: 1.5; 
+    -webkit-text-size-adjust: 100%; 
+    font-family: system-ui,sans-serif; 
+    -webkit-font-smoothing: antialiased; 
+    text-rendering: optimizeLegibility; 
+    -moz-osx-font-smoothing: grayscale; 
+    touch-action: manipulation;
+} 
+
+html { 
+    letter-spacing: -0.02rem;
+} 
+
+:root { 
+    --chakra-ring-inset: var(--chakra-empty,/*!*/ /*!*/); 
+    --chakra-colors-white: #FFFFFF; 
+    --chakra-colors-gray-200: #E2E8F0; 
+    --chakra-colors-gray-400: #A0AEC0; 
+    --chakra-colors-gray-500: #718096; 
+    --chakra-colors-gray-800: #1A202C; 
+    --chakra-colors-blue-500: #3182ce; 
+    --chakra-fonts-heading: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; 
+    --chakra-fonts-body: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; 
+    --chakra-fontSizes-lg: 1.125rem; 
+    --chakra-fontSizes-2xl: 1.5rem; 
+    --chakra-fontWeights-semibold: 600; 
+    --chakra-fontWeights-bold: 700; 
+    --chakra-lineHeights-base: 1.5; 
+    --chakra-radii-lg: 0.5rem; 
+    --chakra-radii-full: 9999px; 
+    --chakra-sizes-full: 100%; 
+    --chakra-sizes-2xl: 42rem; 
+    --chakra-transition-duration-normal: 200ms; 
+} 
+
+.css-18lgwo7 { 
+    width: 100%; 
+    -webkit-margin-start: auto; 
+    margin-inline-start: auto; 
+    -webkit-margin-end: auto; 
+    margin-inline-end: auto; 
+    max-width: var(--chakra-sizes-2xl); 
+    -webkit-padding-start: 1rem; 
+    padding-inline-start: 1rem; 
+    -webkit-padding-end: 1rem; 
+    padding-inline-end: 1rem; 
+    padding-top: 2.5rem; 
+    padding-bottom: 2.5rem;
+} 
+
+@media screen and (min-width: 48em){ 
+  .css-18lgwo7 { 
+    padding-top: 4rem; 
+    padding-bottom: 4rem;
+  } 
+}     
+
+*,:before,:after { 
+    border-width: 0; 
+    border-style: solid; 
+    box-sizing: border-box;
+} 
+
+*,:before,:after { 
+    border-color: var(--chakra-colors-gray-200); 
+    word-wrap: break-word;
+} 
+
+.css-92zpe1 { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column;
+} 
+
+.css-1iwxdl8 { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-align-items: start; 
+    -webkit-box-align: start; 
+    -ms-flex-align: start; 
+    align-items: start; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column;
+} 
+
+.css-n21gh5 { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column;
+} 
+
+.css-92zpe1 > :not(style) ~ :not(style)  { 
+    margin-top: 2rem; 
+    -webkit-margin-end: 0px; 
+    margin-inline-end: 0px; 
+    margin-bottom: 0px; 
+    -webkit-margin-start: 0px; 
+    margin-inline-start: 0px;
+} 
+
+hr { 
+    border-top-width: 1px; 
+    box-sizing: content-box; 
+    height: 0; 
+    overflow: visible;
+} 
+
+hr { 
+    margin: 0;
+} 
+
+.css-svjswr { 
+    opacity: 0.6; 
+    border: 0; 
+    border-color: inherit; 
+    border-style: solid; 
+    border-bottom-width: 1px; 
+    width: 100%;
+} 
+
+.css-sekf5y { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column;
+} 
+
+.css-1omprws { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    padding-top: 2rem;
+} 
+
+.css-1lxgfol { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-flex-direction: row; 
+    -ms-flex-direction: row; 
+    flex-direction: row;
+} 
+
+.css-1iwxdl8 > :not(style) ~ :not(style)  { 
+    margin-top: 1rem; 
+    -webkit-margin-end: 0px; 
+    margin-inline-end: 0px; 
+    margin-bottom: 0px; 
+    -webkit-margin-start: 0px; 
+    margin-inline-start: 0px;
+} 
+
+p { 
+    margin: 0;
+} 
+
+.css-i3jkqk { 
+    font-size: var(--chakra-fontSizes-lg);
+} 
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+} 
+
+a { 
+    background-color: transparent; 
+    color: inherit; 
+    -webkit-text-decoration: inherit; 
+    text-decoration: inherit;
+} 
+
+.css-fe66a1 { 
+    font-size: var(--chakra-fontSizes-lg); 
+    color: var(--chakra-colors-blue-500); 
+    font-weight: var(--chakra-fontWeights-semibold);
+} 
+
+.css-n21gh5 > :not(style) ~ :not(style)  { 
+    margin-top: 0.5rem; 
+    -webkit-margin-end: 0px; 
+    margin-inline-end: 0px; 
+    margin-bottom: 0px; 
+    -webkit-margin-start: 0px; 
+    margin-inline-start: 0px;
+} 
+
+h2 { 
+    margin: 0;
+} 
+
+h2 { 
+    font-size: inherit; 
+    font-weight: inherit;
+} 
+
+.css-12d46le { 
+    font-family: var(--chakra-fonts-heading); 
+    font-weight: var(--chakra-fontWeights-bold); 
+    font-size: var(--chakra-fontSizes-2xl); 
+    line-height: 1.33;
+} 
+
+@media screen and (min-width: 48em){ 
+  .css-12d46le { 
+    line-height: 1.2;
+  } 
+}     
+
+.css-r4n0xu { 
+    position: relative; 
+    width: var(--chakra-sizes-full); 
+    border-radius: var(--chakra-radii-lg); 
+    overflow: hidden;
+} 
+
+.css-sekf5y > :not(style) ~ :not(style)  { 
+    margin-top: 1rem; 
+    -webkit-margin-end: 0px; 
+    margin-inline-end: 0px; 
+    margin-bottom: 0px; 
+    -webkit-margin-start: 0px; 
+    margin-inline-start: 0px;
+} 
+
+.css-r4n0xu:before { 
+    height: 0px; 
+    content: ""; 
+    display: block; 
+    padding-bottom: 56.25%;
+} 
+
+.css-r5e16 { 
+    width: var(--chakra-sizes-full); 
+    border-radius: var(--chakra-radii-lg); 
+    overflow: hidden;
+} 
+
+.css-wavk5s { 
+    display: grid; 
+    grid-gap: 1rem; 
+    grid-row: 2; 
+    grid-template-columns: repeat(4, minmax(0, 1fr)); 
+    width: var(--chakra-sizes-full); 
+    justify-items: center; 
+    max-width: 20rem;
+} 
+
+.css-dnyvsz { 
+    text-align: center; 
+    color: var(--chakra-colors-gray-500);
+} 
+
+.css-1omprws > :not(style) ~ :not(style)  { 
+    margin-top: 1.25rem; 
+    -webkit-margin-end: 0px; 
+    margin-inline-end: 0px; 
+    margin-bottom: 0px; 
+    -webkit-margin-start: 0px; 
+    margin-inline-start: 0px;
+} 
+
+.css-1oaida7 { 
+    position: relative; 
+    min-width: 5rem; 
+    min-height: 5rem; 
+    width: 5rem; 
+    height: 5rem; 
+    border-radius: var(--chakra-radii-full); 
+    overflow: hidden;
+} 
+
+@media screen and (min-width: 48em){ 
+  .css-1oaida7 { 
+    min-width: 6rem; 
+    min-height: 6rem; 
+    width: 6rem; 
+    height: 6rem;
+  } 
+}     
+
+.css-1oaida7:before { 
+    height: 0px; 
+    content: ""; 
+    display: block; 
+    padding-bottom: 100%;
+} 
+
+.css-14jwyj8 { 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-align-items: start; 
+    -webkit-box-align: start; 
+    -ms-flex-align: start; 
+    align-items: start; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    -webkit-justify-content: center; 
+    justify-content: center; 
+    -webkit-flex-direction: column; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    width: var(--chakra-sizes-full);
+} 
+
+.css-1lxgfol > :not(style) ~ :not(style)  { 
+    margin-top: 0px; 
+    -webkit-margin-end: 0px; 
+    margin-inline-end: 0px; 
+    margin-bottom: 0px; 
+    -webkit-margin-start: 1rem; 
+    margin-inline-start: 1rem;
+} 
+
+iframe { 
+    display: block;
+} 
+
+.css-r4n0xu > :not(style)  { 
+    overflow: hidden; 
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+    left: 0px; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    -webkit-justify-content: center; 
+    justify-content: center; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 100%;
+} 
+
+.css-1oaida7 > :not(style)  { 
+    overflow: hidden; 
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+    left: 0px; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    -webkit-justify-content: center; 
+    justify-content: center; 
+    -webkit-align-items: center; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 100%;
+} 
+
+svg { 
+    display: block;
+} 
+
+.css-132focj { 
+    width: 1em; 
+    height: 1em; 
+    display: inline-block; 
+    line-height: 1em; 
+    -webkit-flex-shrink: 0; 
+    -ms-flex-negative: 0; 
+    flex-shrink: 0; 
+    color: var(--chakra-colors-gray-400); 
+    font-size: 1.5rem;
+} 
+
+img { 
+    border-style: none;
+} 
+
+img { 
+    display: block;
+} 
+
+img { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-Qli5i.style-Qli5i {  
+   box-sizing:border-box;  
+   display:block;  
+   overflow:hidden;  
+   width:initial;  
+   height:initial;  
+   background:none;  
+   opacity:1;  
+   border:0;  
+   margin:0;  
+   padding:0;  
+   position:absolute;  
+   top:0;  
+   left:0;  
+   bottom:0;  
+   right:0;  
+}  
+#style-jYMbT.style-jYMbT {  
+   position:absolute;  
+   top:0;  
+   left:0;  
+   bottom:0;  
+   right:0;  
+   box-sizing:border-box;  
+   padding:0;  
+   border:none;  
+   margin:auto;  
+   display:block;  
+   width:0;  
+   height:0;  
+   min-width:100%;  
+   max-width:100%;  
+   min-height:100%;  
+   max-height:100%;  
+   object-fit:fill;  
+}  
